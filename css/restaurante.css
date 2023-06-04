@@ -1,0 +1,23 @@
+input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+input[type="file"]::before {
+    content: 'Seleccionar imagen';
+    display: inline-block;
+    background: #f1f1f1;
+    border: none;
+    padding: 8px 12px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555555;
+    border-radius: 4px;
+}
+
+.custom-image-size {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}

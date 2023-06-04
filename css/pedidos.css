@@ -1,0 +1,63 @@
+.pedido {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pedido .col-md-2 {
+    text-align: center;
+}
+
+.nombre-restaurante {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fecha-pedido, .direccion-entrega, .detalles-pedido {
+    margin-bottom: 5px;
+}
+
+
+.pedido .col-md-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.pedido .col-md-10 {
+    padding-left: 20px;
+}
+
+.pedido .nombre-restaurante {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pedido .info-pedido p {
+    margin-bottom: 5px;
+}
+
+.pedido .detalles-pedido {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pedido .detalles-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pedido .detalles-list li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.fecha-pedido{
+    font-size: 12px;
+}
+
+.subtotal-total{
+    color: #007bff;
+    font-weight: bold;
+}

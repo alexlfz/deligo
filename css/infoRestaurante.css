@@ -1,0 +1,59 @@
+input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+input[type="file"]::before {
+    content: 'Seleccionar imagen';
+    display: inline-block;
+    background: #f1f1f1;
+    border: none;
+    padding: 8px 12px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555555;
+    border-radius: 4px;
+}
+
+.custom-image-size {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#btnHacerPedido {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#btnHacerPedido:hover {
+    background-color: #0056b3;
+}
+
+
+#carritoCompra {
+    position: absolute;
+    bottom: 100px; 
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#carritoCompra:hover {
+    background-color: #007bff;
+}
